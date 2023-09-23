@@ -21,4 +21,4 @@ jobs:
         with:
           context: Frontend
           push: true
-          tags: daves2126/arequipetweb:latest, daves2126/arequipetweb:${{ github.run_number }}
+          tags: eisazav12/arqmodweb:latest, eisazav12/arqmodweb:${{ github.run_number }}
