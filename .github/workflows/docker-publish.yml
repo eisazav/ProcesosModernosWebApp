@@ -19,6 +19,6 @@ jobs:
       - name: Build ReactJs and publish to Docker Hub
         uses: docker/build-push-action@v2
         with:
-          context: Frontend
+          context: .
           push: true
           tags: eisazav12/arqmodweb:latest, eisazav12/arqmodweb:${{ github.run_number }}
